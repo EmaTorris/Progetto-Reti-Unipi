@@ -1,0 +1,6 @@
+# Progetto-Reti-Unipi
+Progetto reti anno accademico 2018-2019
+Turing: distributed collaborative editing
+
+
+TURING (disTribUted collab-oRative edItiNG) è uno strumento per l’editing collaborativo di documenti basato su un classico servizio client-server. La creazione di tale strumento è stata fatta scegliendo un’interfaccia basata su linea di comando (CLI). L’applicazione si svolge nel seguente modo: l’utente, dopo aver effettuato la registrazione, esegue delle richieste che verranno poi gestite dal Server in attesa di risposta. Le operazioni messe a disposizione dell’utente verranno trattate nel dettaglio in una sezione apposita. In generale possiamo dire che oltre alla registrazione, l’utente può effettuare la creazione, la modifica e la condivisione di un documento ad altri utenti. Durante la fase di modifica è possibile chattare con tutti gli altri utenti collaboratori che stanno occupando le diverse sezioni del file. Le sezioni devono essere necessariamente diverse in quanto un utente può modificare una sezione solo se essa non è già sotto modifica. L’invito può essere fatto univocamente da chi ha creato il file e può essere effettuato indipendentemente dallo stato “online” o “offline” dell’utente destinatario.
